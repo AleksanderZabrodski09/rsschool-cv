@@ -78,16 +78,18 @@ h6 {
 }
 /*--------------------*/
 body {
+    max-width: 900px;
     background: #e5e5e5;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin: 0 48px 0;
 }
-.container {
+.container header {
+    position: relative;
 }
 .header {
     display: flex;
     flex-wrap: wrap;
-    max-width: 500px;
+    max-width: 900px;
     margin-top: 22px;
 }
 .header__avatar {
@@ -99,8 +101,7 @@ body {
 img {
     max-width: 100%;
 }
-.header__title {
-}
+
 .name {
     font-size: 32px;
     line-height: 28px;
@@ -111,8 +112,7 @@ img {
     line-height: 1;
     color: rgba(42, 174, 231, 1);
 }
-.heder__contacts {
-}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -121,9 +121,10 @@ img {
 .heder__contacts {
     flex: 0 1 50%;
 }
-.heder__contacts__1 {
-}
-..icon-location {
+h3 {
+    font-size: 20px;
+    line-height: 1;
+    color: rgba(42, 174, 231, 1);
 }
 .heder__contacts__2 {
     flex: 0 1 auto;
@@ -137,4 +138,22 @@ img {
 }
 .icon- {
     color: rgba(42, 174, 231, 1);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: #000;
+    background-color: rgba(42, 174, 231, 1);
+    max-width: 900px;
+}
+footer a {
+    color: #000;
+}
+.my-githab {
+    display: flex;
+    align-items: center;
 }
