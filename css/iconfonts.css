@@ -1,9 +1,9 @@
 @font-face {
   font-family: "icons";
-  src: url("../fonts/icons.eot?nzaf0k");
-  src: url("../fonts/icons.eot?nzaf0k#iefix") format("embedded-opentype"),
-    url("../fonts/icons.ttf?nzaf0k") format("truetype"), url("../fonts/icons.woff?nzaf0k") format("woff"),
-    url("../fonts/icons.svg?nzaf0k#icons") format("svg");
+  src: url("/fonts/icons.eot?nzaf0k");
+  src: url("/fonts/icons.eot?nzaf0k#iefix") format("embedded-opentype"),
+    url("/fonts/icons.ttf?nzaf0k") format("truetype"), url("/fonts/icons.woff?nzaf0k") format("woff"),
+    url("/fonts/icons.svg?nzaf0k#icons") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -36,42 +36,42 @@
 }
 .icon-rsshool .path1:before {
   content: "\e903";
-  color: ;
+  color: none;
 }
 .icon-rsshool .path2:before {
   content: "\e904";
   margin-left: -2.6923828125em;
-  color: ;
+  color: none;
 }
 .icon-rsshool .path3:before {
   content: "\e905";
   margin-left: -2.6923828125em;
-  color: ;
+  color: none;
 }
 .icon-rsshool .path4:before {
   content: "\e906";
   margin-left: -2.6923828125em;
-  color: ;
+  color: none;
 }
 .icon-rsshool .path5:before {
   content: "\e907";
   margin-left: -2.6923828125em;
-  color: ;
+  color: none;
 }
 .icon-rsshool .path6:before {
   content: "\e908";
   margin-left: -2.6923828125em;
-  color: ;
+  color: none;
 }
 .icon-rsshool .path7:before {
   content: "\e909";
   margin-left: -2.6923828125em;
-  color: ;
+  color: none;
 }
 .icon-rsshool .path8:before {
   content: "\e90a";
   margin-left: -2.6923828125em;
-  color: ;
+  color: none;
 }
 .icon-rsshool .path9:before {
   content: "\e90b";
@@ -91,7 +91,7 @@
 .icon-rsshool .path12:before {
   content: "\e90e";
   margin-left: -2.6923828125em;
-  color: ;
+  color: none;
 }
 .icon-github:before {
   content: "\eab0";
